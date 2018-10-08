@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="adddish-container">
+    <input class="dish-name" type="text" #inputDish placeholder="Dish">
+    <textarea class="text-area" #inputRecipte placeholder="Recipte"></textarea>
+    <textarea class="text-area" #inputDescription placeholder="Description"></textarea>
+    <button (click)="add(inputDish.value, inputRecipte.value, inputDescription.value)" class="submit-button">Submit</button>
+  </div>
+</div>

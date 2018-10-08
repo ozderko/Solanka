@@ -1,0 +1,17 @@
+
+  <mat-card class="addproduct-container">
+    <div class="input-container">
+     <mat-form-field class="example-full-width">
+        <input type="text" #inputProduct matInput placeholder="Add product">
+      </mat-form-field>
+    </div>
+
+    <mat-button-toggle-group class="toogle-group" name="fontStyle" aria-label="Font Style">
+      <mat-button-toggle class="toogle-e" value="">Dont Essential</mat-button-toggle>
+      <mat-button-toggle class="toogle-e" #inputToogle value="true">Essential</mat-button-toggle>
+    </mat-button-toggle-group>
+
+    <button (click)="add(inputProduct.value, inputToogle.checked)" mat-button class="button">Submit</button>
+
+  </mat-card>
+

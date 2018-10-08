@@ -1,0 +1,22 @@
+<!--<app-filter></app-filter>-->
+<div class="container-f">
+  <mat-card class="card">
+    <mat-form-field class="example-full-width">
+      <input [(ngModel)]="searchStr" type="text" matInput placeholder="Search">
+    </mat-form-field>
+  </mat-card>
+</div>
+<app-addproduct *ngIf="isLogin" (onAdd)="add($event)"></app-addproduct>
+<div *ngFor="let product of products | filterP: searchStr" class="container">
+<mat-card class="simple-card" appHover>
+  <mat-card-content class="card-content">
+    <span class="text">
+      {{getName(product)}}
+    </span>
+    <button mat-fab (click)="openModal()" color="warn" [class.indicate]="product.isEssential" class="indicator" ></button>
+  </mat-card-content>
+  <mat-card-actions class="card-content">
+    <button mat-button color="warn" class="button" (click)="delete(product.id)">Delete</button>
+  </mat-card-actions>
+</mat-card>
+</div>

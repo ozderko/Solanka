@@ -1,0 +1,9 @@
+<div class="added-product" *ngFor="let selectedProduct of selectedProducts">
+  <div class="text">{{getNameProduct(selectedProduct)}}</div>
+  <input class="input-width" onblur="" type="number" placeholder="Width">
+</div>
+<select *ngIf="products?.length" (change)="selectProduct(inputProduct.value)" #inputProduct class="select">
+  <option [value]="-1">Add product</option>
+  <option class="option" *ngFor="let product of products" [value]="product.id">{{getNameProduct(product)}}</option>
+</select>
+

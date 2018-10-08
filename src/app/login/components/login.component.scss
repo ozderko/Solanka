@@ -1,0 +1,54 @@
+$height-header: 55px;
+$height-login: 100px;
+$size-border: 0.5px;
+$padding-input: 5px;
+
+.container {
+  width: 100%;
+  height: calc(100vh - #{$height-header});
+  background: url("../../../../image/login-images.jpg") no-repeat center top / cover;
+  overflow: hidden;
+}
+
+.login-container {
+  width: 450px;
+  height: 119px;
+  background: pink;
+  display: block;
+  margin: auto;
+  margin-top: calc(50vh - #{$height-header} - #{$height-login});
+  border-radius: 6px;
+}
+
+.login-logo-container {
+  width: 100%;
+  border-bottom: 1px solid #06728d;
+
+}
+
+.login-logo {
+  width: 170px;
+  height: 55px;
+  background: url("../../../../image/header-solanka.png") no-repeat;
+  margin: auto;
+}
+
+.input {
+  width: calc(50% - #{$size-border} - #{$padding-input});
+  height: 30px;
+  border: 0;
+  background: none;
+  border-bottom: #06728d solid 1px;
+  padding-left: 5px;
+}
+
+.password {
+  border-left: #06728d solid 1px;
+}
+
+.button{
+  width: 100%;
+  height: 30px;
+  border: 0;
+  background: none;
+}

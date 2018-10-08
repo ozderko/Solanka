@@ -1,0 +1,28 @@
+<app-adddish *ngIf="isLogin" (onAdd)="add($event)"></app-adddish>
+<div class="add-product-from-dish-container">
+
+</div>
+<div class="dishes-container">
+  <div *ngFor="let dish of dishes">
+    <div class="dish-container">
+      <div class="name-container">
+        <div class="text-container">
+          <span class="text">{{getName(dish)}}</span>
+        </div>
+      </div>
+      <app-addproductfromdish *ngIf="isLogin"></app-addproductfromdish>
+
+
+     <!-- <app-dish-component [dishId]="dish.id"></app-dish-component> -->
+
+
+      <div class="recipe-container">
+        <span>Recipe: {{getRecipe(dish)}}</span>
+      </div>
+      <div class="description-container">
+        <span>Description: {{getDescription(dish)}}</span>
+      </div>
+      <button *ngIf="isLogin" class="button" (click)="delete(dish.id)">Delete</button>
+    </div>
+  </div>
+</div>

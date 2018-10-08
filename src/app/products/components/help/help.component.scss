@@ -1,0 +1,38 @@
+.logo{
+  margin: auto;
+  width: 170px;
+  height: 55px;
+  background: url("../../../../../image/header-solanka.png");
+}
+.mat-card{
+  width: 500px;
+  height: 150px;
+  box-shadow: none!important;
+  padding: 0;
+}
+
+.hello{
+  font-size: 25px;
+  margin: auto;
+}
+.title{
+  display: block;
+}
+.indicator{
+  width: 15px;
+  height: 15px;
+  margin: 5px 0 0 0;
+  float: left;
+  box-shadow: none !important;
+  cursor: default;
+}
+.indicate{
+  background: cornflowerblue;
+}
+.text{
+  margin-left: 5px;
+}
+
+.button{
+  float: right;
+}

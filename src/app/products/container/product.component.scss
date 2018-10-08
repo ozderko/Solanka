@@ -1,0 +1,121 @@
+.container{
+  width: 300px;
+  height: 90px;
+  display: -webkit-inline-flex;
+  margin: 10px 0 5px 15px;
+}
+.simple-card{
+  padding: 0;
+  width: 300px;
+  height: 90px;
+}
+.card-content{
+  width: 300px;
+  height: 45px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.button{
+  width: 300px;
+  height: 45px;
+}
+.indicator{
+  width: 15px;
+  height: 15px;
+  margin: 15px 15px 0 0;
+  box-shadow: none !important;
+  cursor: default;
+}
+.indicate{
+  background: cornflowerblue;
+}
+
+.container-f{
+  min-width: 500px;
+  max-width: 800px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+
+.card{
+  height: 65px;
+  padding: 10px;
+}
+.example-full-width{
+  min-width: 200px;
+  max-width: 300px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.hovered{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  transition: .2s all;
+  z-index: 10;
+}
+
+.products-container{
+  width: 100%;
+  height: 100%;
+  margin:auto;
+}
+.product-container{
+  display:block;
+  float:left;
+  margin: auto;
+}
+.product{
+  width: 250px;
+  height: 60px;
+  background: pink;
+  margin: 10px 0 0 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.light{
+  width: 20px;
+  height: 20px;
+  background: green;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.light-false{
+  width: 20px;
+  height: 20px;
+  background: red;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.text-container{
+  height: 30px;
+  border-radius: 4px 4px 0 0;
+  background: #06728d;
+}
+.text{
+  margin: auto;
+  padding-left: 15px;
+  padding-top: 11px;
+  font-size: 20px;
+}
+.delete{
+  width: 250px;
+  height: 30px;
+  border: 0;
+  background: none;
+  text-decoration: none;
+  outline: none;
+}
+.delete:hover{
+  background: #06728d;
+  color: white;
+  border-radius: 0 0 4px 4px;
+}

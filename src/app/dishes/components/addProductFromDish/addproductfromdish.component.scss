@@ -1,0 +1,39 @@
+.container{
+  display: block;
+  float: left;
+}
+.add-product-from-dish-container{
+  width: 450px;
+  height: 100%;
+  margin: 10px 0 0 10px;
+  background: pink;
+  border-radius: 4px;
+}
+.select{
+  width: 450px;
+  height: 30px;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #06728d;
+  outline: none;
+}
+.added-product{
+  width: 450px;
+  height: 30px;
+  font-size: 25px;
+  float: left;
+  border-bottom: 1px solid #06728d;
+  outline: none;
+}
+.text{
+  width: 225px;
+  display: inline-block;
+}
+.input-width{
+  width: 225px;
+  height: 25px;
+  border: 0;
+  padding: 5px 0 0 0;
+  background: none;
+}
+

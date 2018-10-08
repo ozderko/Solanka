@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="login-container">
+    <div class="login-logo-container">
+      <div class="login-logo">
+      </div>
+    </div>
+    <input #inputLogin class="input" type="text" placeholder="Login">
+    <input #inputPassword class="input password" type="password" placeholder="Password">
+    <button (click)="logg(inputLogin.value,inputPassword.value)"  class="button">Login</button>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+.container{
+  display: block;
+  float: left;
+}
+.adddish-container{
+  width: 250px;
+  height: 100%;
+  background: pink;
+  border-radius: 4px;
+  margin: 10px 0 0 10px;
+}
+.dish-name{
+  width: 245px;
+  height: 28px;
+  padding-left: 5px;
+  border: 0;
+  border-radius: 4px 4px 0 0;
+  background: #06728d;
+  color: white;
+  outline: none;
+}
+.dish-name::placeholder{
+  color:white;
+}
+
+.text-area{
+  width: 243px;
+  height: 60px;
+  padding-left: 5px;
+  border: 0;
+  border-bottom: 1px solid #06728d;
+  background: none;
+  outline: none;
+  resize: none;
+}
+.submit-button{
+  width: 250px;
+  height: 30px;
+  border: 0;
+  border-radius: 0 0 4px 4px;
+  background: none;
+  outline: none;
+}
+.submit-button:active{
+  background: #06728d;
+  color: white;
+}
+

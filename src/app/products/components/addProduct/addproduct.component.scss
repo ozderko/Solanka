@@ -1,0 +1,89 @@
+
+.addproduct-container{
+  min-width: 230px;
+  max-width: 300px;
+  width: 100%;
+  height: 173px;
+  margin: 10px 0 4px 10px;
+  padding: 0;
+  float: left;
+  display: block;
+}
+
+
+.example-full-width {
+  width: 90%;
+  display: block;
+  margin: auto;
+
+}
+
+.input-container{
+ margin-top: 7px!important;
+}
+
+.toogle-group{
+  margin-left: 10px;
+}
+.toogle-e{
+  width: 140px;
+}
+
+.button{
+  margin-top: 20px;
+  width: 300px;
+  height: 45px;
+}
+
+
+.submit-button{
+  width: 250px;
+  height: 30px;
+  border: 0;
+  background: none;
+  outline: none;
+}
+.submit-button:hover{
+  background: #06728d;
+  color: white;
+}
+.inqput{
+  padding-left: 5px;
+  width: 245px;
+  height: 28px;
+  display:flex;
+  margin: auto;
+  border: 0;
+  border-radius: 4px 4px 0 0;
+  background: #06728d;
+  color:white;
+  outline: none;
+}
+.input::placeholder{
+  color: white;
+}
+
+#checkbox{
+  display: none;
+}
+#checkbox + label{
+  display: block;
+  width: 250px;
+  height: 30px;
+  background: none;
+  border-radius: 0 0 4px 4px;
+  text-align: center;
+}
+#checkbox + label:before{
+  content: '✔';
+  font-size: 20px;
+}
+#checkbox:checked + label{
+  background: #06728d;
+}
+#checkbox:checked + label:before{
+  color:white;
+}
+#checkbox:hover + label{
+  background: #06728d;
+}
